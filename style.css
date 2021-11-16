@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content:flex-start;
+}
+
+.logo{
+    align-self:center;
+}
+
+.links{
+    align-self:center;
+
+}
