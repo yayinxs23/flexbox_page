@@ -1,13 +1,14 @@
-.container{
+body{
+    background-color: rgb(69, 86, 97);
+}
+
+.flex-container{
     display: flex;
-    justify-content:flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+
 }
 
-.logo{
-    align-self:center;
-}
-
-.links{
-    align-self:center;
-
+.flex-container .links{
+    align-self:flex-start;
 }
