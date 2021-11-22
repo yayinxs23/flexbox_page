@@ -1,14 +1,20 @@
 body{
-    background-color: rgb(69, 86, 97);
+    background-color: #fafafa;
 }
 
-.flex-container{
+.first-container{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+    flex-direction: column;
+    margin: 48px;
+    gap: 10px;
 }
 
-.flex-container .links{
-    align-self:flex-start;
+.first-container .logo{
+    align-self: flex-start;
+    margin: 0px;
+}
+
+.first-container .links{
+    margin: 0px;
+    align-self: flex-end;
 }
